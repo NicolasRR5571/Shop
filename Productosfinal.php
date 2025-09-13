@@ -1,12 +1,12 @@
 <?php
-$producto1 = $POST['producto 1'];
-$preciopr1 = $POST['precio1'];
+$producto1 = $POST['producto1'];
+$preciopr1 = $POST['preciopr1'];
 
-$producto2 = $POST['producto 2'];
-$preciopr2 = $POST['precio2'];
+$producto2 = $POST['producto2'];
+$preciopr2 = $POST['preciopr2'];
 
-$producto3 = $POST['producto 3'];
-$preciopr3 = $POST['precio3'];
+$producto3 = $POST['producto3'];
+$preciopr3 = $POST['preciopr3'];
 
 $suma=$preciopr1+$preciopr2+$preciopr3;
 $descuento=$suma*0.16
